@@ -5,6 +5,7 @@
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     display: flex;
+    flex-direction: row;
 }
 
 .publication-image {
@@ -43,3 +44,29 @@
     text-decoration: underline;
 }
 
+/* Mobile styles */
+@media (max-width: 768px) {
+    .paper {
+        flex-direction: column;
+        width: 90%;
+        padding: 10px;
+    }
+
+    .publication-image {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .content {
+        flex: none;
+    }
+
+    .typography-title {
+        font-size: 20px;
+    }
+
+    .typography-link {
+        font-size: 14px;
+    }
+}
