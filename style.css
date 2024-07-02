@@ -16,6 +16,11 @@ body {
     overflow-x: hidden;
 }
 
+.logo {
+    width: 150px;
+    margin-right: 250px;
+}
+
 a {
     color: #0086e6;
     text-decoration: none;
@@ -42,6 +47,11 @@ h1 {
     }
     h2 {
         font-size: 2.5em;
+    }
+
+    .logo {
+        margin-right: 0;
+        margin-bottom: 10px;
     }
 
 }
