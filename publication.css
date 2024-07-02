@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.paper {
+    background-color: #f8f8f8;
+    width: 100%;
+    margin: 10px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+}
+
+.publication-image {
+    max-width: 300px; /* Adjust the width as needed */
+    margin-right: 50px; /* Space between image and content */
+}
+
+.content {
+    flex: 1; /* Take the remaining space */
+}
+
+.title {
+    color: #333;
+    font-size: 24px;
+}
+
+.tldr {
+    color: #444;
+    font-size: 16px;
+}
+
+.date, .authors, .publication, .keywords {
+    color: #666;
+    font-size: 14px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #0066cc;
+    font-size: 16px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
