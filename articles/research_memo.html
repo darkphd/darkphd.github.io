@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  </script>
+<script type="text/javascript"
+  src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="publication.css">
+
+<body>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>darkphd</title>
+</head>
+
+<div class="w3-container w3-margin">
+
+  <div class="w3-center">
+     <h1> Some high-level thoughts in computer vision research </h1>
+  </div>
+
+    <div class="container w3-center">
+        <div class="aspect-ratio-box">
+            <img src="../static/research_memo.png" alt="Image" class="responsive-image">
+        </div>
+    </div>
+
+  <div class="w3-margin">
+
+<ul>
+  <li> Work on supertask instead of small/fake/intermediate tasks. For example, DUST3R, GPT4, etc.</li>
+  <li> Mid-level vs High-level vision tasks. The current best solution to mid-level tasks is (1) pretraining on synthetic data (2) unsupervised training on unlabeled data. The backbone could be pretrained SSL models (e.g. DINO-v2); For high-level vision tasks, SSL+fine-tuning dominates. Mid-level vision has many applications even though high-level vision is the main focus of SSL. </li>
+  <li> Industry prefers light-weighted and fast models. Academia cares more about novelty. If a model is not worth working, it is not worth working fast.</li>
+</ul>
+  </div>
+</div>
+
+</body>
+
+</html>
